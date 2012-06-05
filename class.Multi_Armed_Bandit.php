@@ -46,7 +46,7 @@ abstract class Multi_Armed_Bandit implements Saveable {
 	}
 
 	public static function reward($item_id) {
-		$mab = new Bandito;
+		$mab = new Bandit;
 		$mab->success($item_id);
 		return true;
 	}
